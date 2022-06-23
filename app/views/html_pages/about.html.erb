@@ -1,2 +1,4 @@
-<h1>Orbit#About</h1>
-<p>Wow you found about page</p>
+<% provide(:title, 'About') %>
+
+  <h1>Orbit <%= yield(:title) %> Page</h1>
+  <p>This is the template <b><%= yield(:title) %> Page</b> for our Orbit Feedback Application</p>
